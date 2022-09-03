@@ -1,0 +1,40 @@
+@font-face {
+    font-family: KyivType Sans Med;
+    src: url(/fonts/kyivtype-sans-medium.ttf) format('truetype');
+}   
+
+@font-face {
+    font-family: KyivType Sans regular;
+    src: url(/fonts/KyivType-Sans-Regular-.ttf) format('truetype');
+}
+@font-face {
+    font-family: KyivType Sans l;
+    src: url(/fonts/kyivtype-sans-light.ttf) format('truetype');
+}
+/* ---------------------------------------------------------------------------- */
+
+body{
+    font-family: KyivType Sans regular, sans-serif;
+    margin: 0;
+    background-color: #B8CCFF;
+    text-align: center;
+}
+
+.hero #titre{
+    color: black;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.main .texte {
+    margin: 30vh;
+    font-family: KyivType Sans Med;
+    
+}
+.btn #ok{
+    border-radius: 8px;
+    padding: 8px;
+    text-decoration: none;
+    border-style: none;
+    font-family: KyivType Sans l ;
+}
